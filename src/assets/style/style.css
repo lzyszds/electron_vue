@@ -32,6 +32,12 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-size: 10px;
+  user-select: none;
+}
+
+img,
+a {
+  -webkit-user-drag: none;
 }
 
 h1 {
